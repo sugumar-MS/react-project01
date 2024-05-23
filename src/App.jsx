@@ -1,6 +1,13 @@
-//Component: App
-const App =() =>{
-  return <h1>Hello,World!</h1>
-}
+import Hello from"./components/Hello";
+const App = () =>{
+  return(
+    <div>
+      <h1>Greeting 111</h1>
+      <Hello/>
+      <Hello/>
+      <Hello/>
 
+    </div>
+  )
+}
 export default App;
